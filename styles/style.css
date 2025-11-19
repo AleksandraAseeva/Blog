@@ -1,0 +1,49 @@
+/* Временная проверка */
+/* body {
+    background-color: #0088ff !important;
+}
+
+.layout {
+    background-color: yellow !important;
+    border: 2px solid red !important;
+} */
+
+.layout {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.layout tr td {
+    padding: 20px;
+    vertical-align: top;
+    border: solid 1px gray;
+}
+
+.header {
+    font-size: 30px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.sidebarHeader {
+    font-size: 20px;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+a, a:visited {
+    color: darkgreen;
+    
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+}

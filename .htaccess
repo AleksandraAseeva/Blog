@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /lesson_2_my_project/
+
+# Если запрашиваемый файл не существует
+RewriteCond %{REQUEST_FILENAME} !-f
+# Если запрашиваемая директория не существует  
+RewriteCond %{REQUEST_FILENAME} !-d
+# Перенаправляем все на index.php
+RewriteRule ^(.*)$ www/index.php?route=$1 [QSA,L]
